@@ -6,6 +6,7 @@
   "scripts": {
     "action": "node ./src/action.js",
     "format": "npx prettier --write .",
+    "init": "cp .env.example .env",
     "show": "node ./src/show.js"
   },
   "keywords": [],
